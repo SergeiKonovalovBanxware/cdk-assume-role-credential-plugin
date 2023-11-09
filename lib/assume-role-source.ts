@@ -16,7 +16,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-import * as cdk from 'aws-cdk';
+import * as cdk from 'aws-cdk/lib/api/plugin';
 import { Command, Configuration } from 'aws-cdk/lib/settings';
 import * as logging from 'aws-cdk/lib/logging';
 import AWS = require('aws-sdk');

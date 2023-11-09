@@ -16,7 +16,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-import * as cdk from 'aws-cdk';
+import * as cdk from 'aws-cdk/lib/api/plugin';
 import { AssumeRoleCredentialProviderSource } from './assume-role-source';
 
 export class AssumeRoleCredentialProviderPlugin implements cdk.Plugin {
