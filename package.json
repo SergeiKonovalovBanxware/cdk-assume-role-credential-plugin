@@ -18,8 +18,8 @@
     "@aws-cdk/cx-api": "1.203.0",
     "@aws-cdk/region-info": "1.203.0",
     "@types/yargs": "^15.0.12",
-    "aws-cdk": "1.203.0",
-    "aws-sdk": "^2.831.0",
+    "aws-cdk": "^1.203.0",
+    "aws-sdk": "^2.1492.0",
     "yargs": "^16.2.0"
   },
   "peerDependencies": {
