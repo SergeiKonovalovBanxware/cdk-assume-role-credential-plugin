@@ -232,6 +232,7 @@ export class AssumeRoleCredentialProviderSource implements cdk.CredentialProvide
     const profile = this.config.settings.get(['profile']);
     const masterCreds = new AWS.CredentialProviderChain([
       function () { return new AWS.ECSCredentials(); },
+      function () { return new AWS.SsoCredentials({ profile: profile }); },
       function () { return new AWS.SharedIniFileCredentials({ profile: profile }); },
       function () { return new AWS.TokenFileWebIdentityCredentials(); },
       function () { return new AWS.ProcessCredentials({ profile: profile }); },
