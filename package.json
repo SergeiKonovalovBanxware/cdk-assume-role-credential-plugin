@@ -1,10 +1,10 @@
 {
   "name": "cdk-assume-role-credential-plugin",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "A CDK credential plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws-samples/cdk-assume-role-credential-plugin"
+    "url": "https://github.com/SergeiKonovalovBanxware/cdk-assume-role-credential-plugin"
   },
   "keywords": [
     "cdk",
